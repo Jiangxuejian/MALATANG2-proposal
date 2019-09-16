@@ -1,7 +1,8 @@
 \documentclass[legal,11pt]{article}
 
 \usepackage{wrapfig,graphics,graphicx}
-
+\usepackage{array}
+\usepackage{lscape}
 \usepackage{graphicx}
 \usepackage{ulem}
 \usepackage{url}
@@ -284,13 +285,21 @@
  {\Large\bf Abstract} 
 \justify
 {{
+This new proposal builds upon the existing JCMT MALATANG survey (nearly 400 hrs) and
+the IRAM EMPIRE survey (~600hrs) will tackle the complex issues on the dense gas 
+excitation by focusing on the analysis of multi-ladder and multi-line. 
+
 We propose additional observing time to expand our MALATANG program to construct 
 the largest and deepest \HCNft\ and \HCOPft\ (the strongest collisionally excited 
 molecular lines after CO) maps in a complete infrared (IR) flux limited sample of 23
-brightest IR galaxies plus 6 additional IR-bright galaxies in the EMPIRE survey. 
+brightest IR galaxies plus 5 additional IR-bright galaxies in the EMPIRE survey. 
+The EMPIRE survey consists of a total of 9 galaxies with 4 galaxies already observed in
+our MALATANG program. Combining two surveys, the detailed studies on the excitation will be available beyond
+the central beam on the nuclear regions.
 
-Previous $\sim$ 100 hrs observations with the IRAM 30m lead to a large \HCNoz\ map 
-in M~51, demonstrating the large-scale extended distribution of dense molecular 
+%%%%%
+Previous $\sim$ 600 hrs observations with the IRAM 30m lead to a large \HCNoz\ and \HCOPoz{}\  maps
+in nearby star-forming galaxies, demonstrating the large-scale extended distribution of dense molecular 
 gas beyond the nuclear $\sim$ kpc regions in spiral galaxies. The HARP-B array on 
 the JCMT provides the unique mapping machinery in studying the dense gas excitation, 
 chemistry, probing even denser and warmer gas at close to the peak ladder in the 
@@ -300,25 +309,22 @@ physical scales and under various physical environments.  The survey will offer 
 database, via diagnostic power of various line ratios (HCN, \HCOP\ \& CO),  for 
 connecting the emissions between dense molecular gas tracers and star formation (SF) 
 in both central cores of galaxies and more extended regions in spiral disks. 
+%%%%%
+
 Combining with our ongoing efforts with the JCMT and other telescopes and the 
 rich data in literature, this survey will also raise the opportunity to tackle 
 many scientific issues including the initial conditions of SF, chemistry, kinematics,
 feedback of SF and AGN, excitation conditions of molecules, as well as the connections 
-between SF and dense molecular gas on various physical scales. We select the sample 
-from the IRAS Revised Bright Galaxy survey
-        with $f_{\rm 60\mu m}>$ 50 Jy and $f_{\rm 100\mu m}>$ 100 Jy.  We plan
-        to map \HCNft\ and \HCOPft\ along the major axes of 16 nearby galaxies
-        and fully sample the 2\arcmin$\times$2\arcmin central inner disk
-        regions of 7 galaxies with the largest sizes. The planed observations
-        will reach to a sensitivity of 0.3 \Kkms ($\sim$4.5$\times10^6$ \Msun)
-        per beam, with a linear resolution from 0.2 to 2.8 kpc.  The survey
-        sample consists of 23 nearest and brightest infrared galaxies beyond
-        the local group that already have  extremely abundant legacy data from
-        ground to space and needs a modest $\sim$270 hrs band 3 time (some
-        portions can be observed under weather bands 2 and 4 and they are also
-        estimated for each) to complete.  This will be {\bf the first
-        systematic dense gas mapping survey in the off-central regions of
-nearby galaxies}. }}
+between SF and dense molecular gas on various physical scales. 
+
+Our MALATANG sample was a complete flux-limited sample of IRAS Revised Bright Galaxy survey
+with $f_{\rm 60\mu m}>$ 50 Jy and $f_{\rm 100\mu m}>$ 100 Jy.  In this proposal, we plan to extend MALATANG to map 
+\HCNft\ and \HCOPft\ along the major axes of 6 EMPIRE galaxies including a JIGGLE map in M51.
+The planed observations will reach to a sensitivity of 0.3 \Kkms ($\sim$4.5$\times10^6$ \Msun)
+per beam, with a linear resolution from 0.2 to 2.8 kpc.  
+
+The final survey sample will consist of 23 nearest and brightest infrared galaxies plus 5 IR-bright galaxies beyond
+the local group that already have  extremely abundant legacy data from ground to space and needs a modest $\sim$270 hrs band 3 time (some portions can be observed under weather bands 2 and 4 and they are also estimated for each) to complete.  This will be {\bf the first systematic dense gas mapping survey in the off-central regions of nearby galaxies}. }}
 
 \end{center}
 
@@ -339,58 +345,57 @@ Name & Affiliation & Country & Name & Affiliation & Country \\
 
 \hline
 
-Kotaro Kohno         & U. Tokyo          & JP & Stephen Serjeant  & Open U.       & UK  \\  
-Masa Imanishi        & NAOJ              & JP & Jeff Wagg         & SKA Org.      & UK \\ 
-Daisuke Iono         & NAOJ              & JP & Christine Wilson  & McMaster U.   & CA \\
-Quang Nguyen Luong   & NAOJ              & JP & Erik Rosolowsky   & U. Alberta    & CA \\
-Kouichiro Nakanishi  & NAOJ              & JP & Scott Chapman     & Dalhousie U.  & CA \\
-Sherry C. C. Yeh     & NAOJ              & JP & Kevin Lacaille.   & Dalhousie U.  & CA \\
-Joanna Bulger        & NAOJ              & JP & Ashley Bemis      & McMaster U.   & CA \\ 
-Keiichi Maeda        & Kyoto U.          & JP & Richard de Grijs  & Macquarie U.  & AU  \\
-Yusuke Miyamoto      & Nobeyama          & JP & Sarah Graves      & EAO           & US \\
-Tomoka Tosaki        & Joetsu U. of Edu. & JP & Harriet Parsons   & EAO           & US \\
-An-Li Tsai           & NCU               & TW & Malcolm Currie    & EAO           & US  \\
+Kotaro Kohno         & U. Tokyo          & JP & Toby Moore   & Liverpool John Moores U.  & UK \\  
+Masa Imanishi        & NAOJ              & JP & Stephen Serjeant  & Open U.       & UK \\ 
+Daisuke Iono         & NAOJ              & JP & Jeff Wagg         & SKA Org.      & UK \\
+Quang Nguyen Luong   & NAOJ              & JP & Christine Wilson  & McMaster U.   & CA \\
+Kouichiro Nakanishi  & NAOJ              & JP & Erik Rosolowsky   & U. Alberta    & CA \\
+Sherry C. C. Yeh     & NAOJ              & JP & Scott Chapman     & Dalhousie U.  & CA \\
+Joanna Bulger        & NAOJ              & JP & Kevin Lacaille.   & Dalhousie U.  & CA \\ 
+Keiichi Maeda        & Kyoto U.          & JP & Ashley Bemis      & McMaster U.   & CA  \\
+Yusuke Miyamoto      & Nobeyama          & JP & Richard de Grijs  & Macquarie U.  & AU \\
+Tomoka Tosaki        & Joetsu U. of Edu. & JP & Sarah Graves      & EAO           & US \\
+An-Li Tsai           & NCU               & TW & Harriet Parsons   & EAO           & US  \\
 Nanase Harada        & ASIAA             & TW & Mark G. Rawlings  & EAO           & US  \\
-Satoki Matsushita    & ASIAA             & TW & L. Cheng          & SHAO          & CN  \\
-Hsi-An Pan           & ASIAA             & TW & J.-Z. Wang        & SHAO          & CN  \\ 
-Yujin Yang           & KASI              & KR & T. Xiao           & SHAO          & CN  \\
-Minjin Kim           & KASI              & KR & J.-Z. Wang        & SHAO          & CN \\ 
-Hong Soo Park        & KASI              & KR & Y.-X. Xie         & PKU           & CN \\
-Aeree Chung          & Yonsei U.         & KR & J.-Y. Shangguan   & PKU           & CN \\
-Bumhyun Lee          & Yonsei U.         & KR &  H. Gao           & PKU           & CN \\
-Sungeun Kim          & Sejong U.         & KR & Yali Shao         & PKU           & CN \\
-Soojong Pak          & Kyung Hee U.      & KR & S.-Y. Yu          & PKU           & CN \\
-Hye-In Lee           & Kyung Hee U.      & KR & Luis Ho           & PKU           & CN \\
-Padelis Papadopoulos & Cardiff U.        & UK & Y.-X. Xie         & PKU           & CN \\
-Walter Gear          & Cardiff U.        & UK & Y. Shi            & NJU           & CN  \\ 
-Haley Gomez          & Cardiff U.        & UK & H. Chen           & NJU           & CN \\
-Chris Clark          & Cardiff U.        & UK & B. Jiang          & NJU           & CN \\
-Andrew Rigby         & Cardiff U.        & UK & J.-J. Qiu         & NJU           & CN  \\
-Matt Smith           & Cardiff U.        & UK & Q.-S. Gu          & NJU           & CN \\
-Loretta Dunne        & Cardiff U.        & UK & T.-T. Fang.       & XMU           & CN \\
-Stephen Eales        & Cardiff U.        & UK & J.-F. Wang        & XMU           & CN \\
-Timothy A Davis      & Cardiff U.        & UK & J.-W. Wu          & NAOC          & CN \\ 
-Serena Viti          & UCL               & UK & M. Zhu            & NAOC          & CN \\
-George Kelly         & UCL               & UK & X.-H. Li          & NAOC          & CN \\
-Amelie Saintonge     & UCL               & UK & J.-H. He          & YNAO          & CN \\
-Richard Tunnard      & UCL               & UK & Y.-H. Zhao        & YNAO          & CN \\
-Ilse Looze.          & UCL               & UK & Y.-X. He.         & XAO           & CN \\
-Elias Brinks         & U. Hertfordshire  & UK & J.-F. Wang.       & PMO           & CN \\
-Kristen Coppin       & U. Hertfordshire  & UK & Q.-H. Tan         & PMO           & CN \\
-GiuLio Violino       & U. Hertfordshire  & UK & Q. Jiao           & PMO           & CN \\
-Elias  Brinks        & U. Hertfordshire  & UK & Y.-P. Ao          & PMO           & CN  \\
-Mark Sargent         & U. Sussex         & UK & X.-J. Jiang       & PMO           & CN \\
-Dimitra Rigopoulou   & U. Oxford         & UK & H.-J. Ma          & PMO           & CN \\
-Michal Michalowski   & U. Edinburgh.     & UK & C.-T. Yang        & PMO           & CN \\
-John Richer          & U. Cambridge      & UK & D.-Z. Liu         & PMO           & CN \\ 
-David Eden   & Liverpool John Moores U.  & UK & L.-J. Liu         & PMO           & CN \\
-Toby Moore   & Liverpool John Moores U.  & UK &  & & \\
+Satoki Matsushita    & ASIAA             & TW & L. Cheng          & THU           & CN \\ 
+Hsi-An Pan           & ASIAA             & TW & J.-Z. Wang        & SHAO          & CN  \\
+Yujin Yang           & KASI              & KR & T. Xiao           & ZJU           & CN \\ 
+Minjin Kim           & KASI              & KR & Y.-X. Xie         & PKU           & CN \\
+Hong Soo Park        & KASI              & KR & J.-Y. Shangguan   & PKU           & CN \\
+Aeree Chung          & Yonsei U.         & KR &  H. Gao           & PKU           & CN \\
+Bumhyun Lee          & Yonsei U.         & KR & Yali Shao         & PKU           & CN \\
+Sungeun Kim          & Sejong U.         & KR & S.-Y. Yu          & PKU           & CN \\
+Soojong Pak          & Kyung Hee U.      & KR & Luis C. Ho        & PKU           & CN \\
+Hye-In Lee           & Kyung Hee U.      & KR & Y.-X. Xie         & PKU           & CN \\
+Padelis Papadopoulos & Cardiff U.        & UK & Y. Shi            & NJU           & CN \\ 
+Walter Gear          & Cardiff U.        & UK & H. Chen           & NJU           & CN \\
+Haley Gomez          & Cardiff U.        & UK & B. Jiang          & NJU           & CN \\
+Chris Clark          & Cardiff U.        & UK & J.-J. Qiu         & NJU           & CN \\
+Andrew Rigby         & Cardiff U.        & UK & Q.-S. Gu          & NJU           & CN \\
+Matt Smith           & Cardiff U.        & UK & T.-T. Fang.       & XMU           & CN \\
+Loretta Dunne        & Cardiff U.        & UK & J.-F. Wang        & XMU           & CN \\ 
+Stephen Eales        & Cardiff U.        & UK & J.-W. Wu          & NAOC          & CN \\
+Timothy A Davis      & Cardiff U.        & UK & M. Zhu            & NAOC          & CN \\
+Serena Viti          & UCL               & UK & X.-H. Li          & NAOC          & CN \\
+George Kelly         & UCL               & UK & J.-H. He          & YNAO          & CN \\
+Amelie Saintonge     & UCL               & UK & Y.-H. Zhao        & YNAO          & CN \\
+Richard Tunnard      & UCL               & UK & Y.-X. He.         & XAO           & CN \\
+Malcolm Currie       & RAL               & UK & X.-J. Jiang       & PMO           & CN \\ 
+Ilse Looze.          & UCL               & UK & Q.-H. Tan         & PMO           & CN \\
+Elias Brinks         & U. Hertfordshire  & UK & Q. Jiao           & PMO           & CN \\
+Kristen Coppin       & U. Hertfordshire  & UK & J.-F. Wang.       & PMO           & CN \\
+GiuLio Violino       & U. Hertfordshire  & UK & Y.-P. Ao          & PMO           & CN \\
+Mark Sargent         & U. Sussex         & UK & H.-J. Ma          & PMO           & CN \\
+Dimitra Rigopoulou   & U. Oxford         & UK & C.-T. Yang        & PMO           & CN \\
+Michal Michalowski   & U. Edinburgh.     & UK & D.-Z. Liu         & PMO           & CN \\
+John Richer          & U. Cambridge      & UK & L.-J. Liu         & PMO           & CN \\
+David Eden           & Liverpool John Moores U.  & UK & \\ 
 
 \hline
 \end{tabular}
  
 \begin{tablenotes}[para,flushleft]
-{\bf Co-PIs: Yu Gao (PMO, CN), Zhiyu Zhang (U. Edinburgh, UK), Thomas Greve (UCL, UK)}\\
+{\bf Co-PIs: Yu Gao (PMO, CN), Zhiyu Zhang (NJU, CN), Thomas Greve (UCL, UK)}\\
 \end{tablenotes}
 \end{threeparttable}
 
@@ -491,12 +496,12 @@ $\sim$ 300 - 1000 \cmt/$\tau$ \footnote{For multiple energy level molecular
 system: $n_{\rm crit}={\Sigma_{\rm l<u} A_{\rm ul}}/{\Sigma_{\rm l\neq u}
 C_{\rm ul}}$, or a given \Tkin\ \citep{Jansen1995, Osterbrock2006}.}, making them good
 tracers of the mass of total \Htwo\ gas (\MHtwo). This density range matches
-well with the bulk of the GMCs. However, the bulk of molecular gas is not
+well with the bulk of the GMCs. However, such bulk of H$_2$ gas is not
 forming stars everywhere.  Only the gas at high density in the dense cores has
-sufficiently high density to collapse and eventually form stars.  A physical
-connection between the \Htwo\ gas density and SF is actually expected, as this is 
-where gravity dominates the turbulent pressure in the clouds, leading to collapse and 
-fragmentation and eventual formation of stars.
+sufficiently gravity to collapse and eventually form stars.  A physical
+connection between the \Htwo\ gas density and SF is naturally expected, 
+as this is where gravity dominates the turbulent pressure and magnetic force 
+in clouds, leading to collapse and fragmentation and eventual formation of stars.
 
 
 
@@ -525,11 +530,11 @@ For the $J$=1--0, 3--2, and 4--3 transitions of HCN,  \ncrit\ are $\sim$ 2
 $\times 10^5$ \cmt, 5$\times 10^6$ \cmt, and 1.5 $\times 10^7$ \cmt, and upper
 level energies are 4 K, 26 K, and 46 K, respectively. The high-$J$ transitions
 are also less affected by the line trapping, so the effective \ncrit\ keeps
-uninfluenced from column density. So, the high-$J$ transitions probe {\bf very
-high density and relatively warm} cores which are heated up by the star
-formation. High-$J$ ($J\ge 5$) CO transitions, also have high \ncrit.  However,
-the high-$J$ CO lines also need very high kinetic temperature $\sim$hundreds of
-K to be excited efficiently. The high-$J$ CO transitions are also difficult to
+almost-uninfluenced by column density. So, the high-$J$ transitions probe {\bf very high density and relatively warm} cores, which are setting up the initial conditions of star-formation.
+Because UV photons can not penetrate to Av$>$7-10, and turbulence dissipates quickly in dense regions, these dense molecular cores can only be heated up by cosmic rays and gravitational collapsing.  
+High-$J$ ($J\ge 5$) CO transitions, on the other hand, also have high \ncrit. 
+However, the high-$J$ CO lines also need very high kinetic temperature $\sim$hundreds of K to be excited efficiently. Thus, high-$J$ CO lines are 
+the effects by star-formation, instead of the cause of it. The high-$J$ CO transitions are also difficult to
 access from the ground while the HCN and \HCOP are readily available.
 
 
@@ -549,7 +554,7 @@ abundances can be interpreted through models for Photon-Dominated Regions
 and are among the best diagnostics for disentangling star formation.
 
 In general and on large scales, the overall abundance of molecules is
-determined by the density of the gas, which favours their formation. and the
+determined by the element abundances, physical conditions and
 energetic processes, such as UV or X-ray radiation,  which in general tend to
 destroy molecules.  The abundances of different molecules vary in different
 physical environments, such as super wind from starbursts, strong radiation
@@ -562,13 +567,11 @@ complexities\citep[e.g.,][]{krips08}, ionization rates and electron densities
 make it difficult to find a stable dense gas tracer in the extreme environment
 of galaxies. 
 
-
-
 The use of molecules as diagnostics of different gas conditions stems from the
 fact that different molecules {\it and} different transitions of the same
 molecule will trace different regions of a galaxy from the cold, relatively low
-density molecular gas (mostly traced by CO), to highly shocked regions, traced
-by e.g., SiO, and finally to very high density star forming clouds (traced by
+density molecular gas (mostly traced by CO), to highly excited shock regions ( 
+traced by e.g., SiO), and finally to very high density star forming clouds (traced by
 e.g., HCN). Often high abundances of particular species such as HCO$^+$ are
 automatically attributed to the presence of strong PDRs, since this molecule is
 indeed abundant in the presence of a strong UV field, regardless of the
@@ -576,6 +579,9 @@ metallicity, cosmic ray ionisation rate or density of the galaxy
 \citep[e.g.,][]{Bayet2011}. Nevertheless this species is also highly enhanced
 when the cosmic ray or X-ray ionisation rates are high, regardless of the UV
 field \citep[e.g.,][]{Bayet2011,Meijerink2005,Meijerink07}. 
+
+
+On the other hand, the abundance of HCN seems to have an effect from metallicity. 
 
 This apparent degeneracy is common to most molecules and again reflects the
 fact that chemistry is a non linear process influenced by a combination of
@@ -673,8 +679,6 @@ are needed before making solid conclusions at high-{\it z}, as a benchmark.
 
 \subsection{Challenges between Theoretical and Observational Results}
 
-
-
 On the other hand, theories on dense gas and star formation are largely under
 debate and few of them match observational results.  \citet{kt07} propose that
 SF is controlled by the free fall time scale as: $\dot{M}_* = SFR_{\rm ff}
@@ -730,14 +734,8 @@ urgently needed to test and verify theoretical studies.
 \subsection{Ongoing Efforts on Dense Gas with Various Telescopes, and ALMA
 Highlights} 
 
-\red{(To add: EMPIRE)}
-
-
-\red{(To add: MALATANG)
-}
-
 In the past few years we have made series of systematic surveys of dense gas
-tracers in nearby SF galaxies. Using GBT 100m, IRAM 30m, APEX 12m, SMT 10m, we
+tracers in nearby SF galaxies. Using GBT 100-m, IRAM 30-m, APEX 12-m, SMT 10-m and the JCMT, we have
 performed a series of surveys of multiple transition lines of CS ($J$=1\to0,
 2\to1, 3\to2, 5\to4, and 7\to6), \HCNoz, \HCNft, and \HCOPft\ in nearby
 star-forming galaxies, including normal spiral galaxies, starbursts, and ULIRGs.
@@ -759,19 +757,27 @@ available \citep[e.g.,][]{Nguyen1992,gs04a,Kepley2014}, simply because the HCN
 emission in normal spiral disks is weak. Till now, little is known about the
 dense gas distribution outside the central regions in external galaxies. 
 
-We have performed a  pilot survey of dense gas emission along the major axis of
-a few spiral galaxies, for HCN $J$=1\to0 in M~51. Fig. \ref{fig:M51_IR_HCN}
+We have performed a pilot survey of dense gas emission along the major axis of
+a few spiral galaxies, for HCN $J$=1\to0 in M\,51. Fig. \ref{fig:M51_IR_HCN}
 shows the \HCNoz\ emission distributes over large scale in spiral galaxies. The
 extent of dense gas traced by \HCNoz\ is as large as the {\it Herschel} 70 \mum\
-image which traces SF activities.  When we plot the luminosities of \HCNoz\ and
-IR in Fig. \ref{fig:M51}, we find that the best fitting of the \LIR-\LHCNoz\
+image which traces SF activities. And we find that the best fitting of the \LIR-\LHCNoz\
 slope index become sub-linear to $\sim$0.74, for all measured data points.
 However, if we limit the data to be only from the disk region, the slope for
 the \LIR-\LHCNoz\ correlation is about unity $\sim 1.06$ \citep{Chen15}. This
 indicates that the dense gas SFE in the central regions is likely higher than
 that in the outer disk region by an factor of two. This finding seems to be
-consistent with \citep{usero15}, that is, the SF processes on the disks may
+consistent with \citet{usero15}, that is, the SF processes on the disks may
 have a different mode than that in the central region of galaxies.
+
+%\red{(MALATANG)}
+The MALATANG survey spent 390 hours with HARP to observe \hcnft\ and \hcopft\ towards 22 galaxies from 2015 and 2017. The survey results show that the two high-$J$ lines are surprisingly weak in some of the galaxies observed, and the HCN(4-3)/HCN(1-0) ratios show large scatter among different galaxies, as well as among different regions of the individual galaxies (Table \ref{tbl:obs} \& \ref{tab:stack}, Zhang et al. in prep). Systematic anaysis of the six galaxies observed in Jiggle mode shows that on sub-kpc scales the resolved regions follow the linear $L_{\rm IR}$--$L'_{\rm dense}$ relation (log-log scale), while systematic variations are also seen among galaxies \citep[Figure \ref{fig:maffei2} \& \ref{fig:tan_relation},][]{Tan:2018}. Analysis based on the data of NGC\,253 shows significant variations in dense gas fraction and SFE, and implies that the high-$J$ lines might be less sensitive to the existing stellar components, and are better tracers of star-forming gas (Figure \ref{fig:jiang_maps} \& \ref{fig:jiang_relation}, Jiang et al. submitted).
+
+%\red{(EMPIRE)}
+The completed MALATANG survey also has great synergy with the EMPIRE survey (EMIR Multiline Probe of the ISM Regulating Galaxy Evolution; PI: F. Bigiel, \citealt{Bigiel:2016, Jimenez-Donaire:2019}).
+EMPIRE used the IRAM 30-m telescope to map multiple
+molecular lines in the 3–4 mm band of nine nearby, face-on massive spiral galaxies. HCN(1-0), \HCOP(1-0), HNC(1-0), CO(1-0), $^{13}$CO(1-0), C$^{18}$O(1-0) and other fainter lines were covered. The scanned field is in the range of 2.5\arcmin$\times$4\arcmin to 4.5\arcmin$\times$6.5\arcmin. 
+Three EMPIRE galaxies were also observed in MALATANG (NGC\,2903, NGC\,3627, NGC\,6946). The EMPIRE survey achieved an rms noise range of 1.8–2.9 mK ($T_{\rm MB}$) with about 70 hours for each galaxy, while the MALATANG used only about 14 hours averaged observing time for each galaxy and achieved RMS levels of $\sim$ 8 mK for Jiggle mode and 3 mK for stare mode. PIs from the two surveys are now working together under the support of a Sino-Germany funding, so the joint-effort for a follow-up survey is of immediate interest and feasible.
 
 
 There are also other possibilities need to be tested. The calculation of
@@ -794,10 +800,10 @@ These studies mostly focus on local (U)LIRGs, and the line ratios between HCN,
 \citep[e.g.,][]{Izumi2013,Martin2015,GB2014, Imanishi2014} and SF activities
 \citep[e.g.,][]{Meier2015}. In many cases, the starburst-type galaxies show
 very large molecular line widths and high \HCNft-to-\HCOPft\ flux ratios, which
-indicate that turbulence-induced heating may also play a role in enhancing the
+indicates that turbulence-induced heating may also play a role in enhancing the
 HCN emission. The \HCNft-to-\HCOPft\ line ratios could be used to detect more
 energetic activity than normal starbursts, including deeply buried AGNs, in
-dusty galaxy populations\citep[e.g.,][]{Imanishi2014}.  
+dusty galaxy populations \citep[e.g.,][]{Imanishi2014}.  
 
 
 %\red{(Masa, please try to add here: more ALMA highlights)} 
@@ -1045,19 +1051,21 @@ simultaneously.
 
 \subsection{Technical Justification}
 
+\red{revise:}
 We propose to map 23 nearby galaxies in \HCNft\ and \HCOPft\  emission. The
 observing frequency ranges from 350.89 GHz to 356.75 GHz and the HARP receiver
 is employed. For the 6 galaxies with $D\gtrsim 10\arcmin$ and strongest
 \HCNoz\ line peak intensity, we plan to fully sample the nuclear regions of
 galaxies with a jiggle mapping mode (3$\times$3 pattern, 10$''$ beam spacing),
 while the rest of galaxies are selected to be mapped along the major axes using
-grid mode (see Fig.~\ref{fig:obs} for a sketch of the observing mode). A
+grid mode. A
 wobbler switching mode will be employed to guarantee flat baselines. For a few
 nearby galaxies with large sizes (e.g., IC 342, NGC 5457), we will use position
 switching mode to avoid possible weak emission from the reference position.
 
 \subsection{Observing Time Estimate}
 
+\red{revise:}
 We estimate the \HCNft\  line peak intensity based on the observed \HCNoz\ 
 flux by assuming a brightness temperature ratio of \HCNft\ to \HCNoz\  of
 $r_{\rm 41}$=0.12, which is an average value measured from the nearby spirals
@@ -1105,8 +1113,8 @@ observing time we request for our dense gas mapping survey program is
 %organising the consortium for major decisions including the observing plan,
 %team members, and publications.  
 
-The project is led by a coordinating team of members including the coordinator
-(Yu Gao), Co-PIs, and regional representatives. The current list of Co-Is is
+The project is led by a coordinating team of members including the regional coordinators
+and 3 Co-PIs. The current list of Co-Is is
 presented on the cover page. The team consists of experts with rich
 observational experiences in radio astronomy.  The observations and data
 reduction will be effectively implemented.  The consortium will ensure the
@@ -1118,7 +1126,7 @@ publications, and data release}.
 Astronomers from all the JCMT partner institutes are welcome to join before the
 submission of the proposal. After the proposal is accepted, new partners or
 international participations need  recommendation from the coordinating team
-and the EAO board. 
+and the EAO/JCMT board. 
 
 The survey is designed for a few major science topics but it does not limit
 science directions. All members are highly encouraged to use the data for their
@@ -1131,9 +1139,9 @@ projects and to protect graduate student projects.
 
 \subsection{Observing and  Data Archiving Management}
 
-We aim to finish about seven sources per year during the survey period, so that
+We aim to finish all sources during the first couple of years survey period, so that
 the analysis and publication can start right after the first data arrival. At
-the beginning of each semester, we will organize series telecons to discuss the
+the beginning of each semester, we will organize series of tele-cons to discuss the
 observational progress and the priority of targets. 
 
 The data reduction will be performed on the JCMT pipeline first and will be
@@ -1157,16 +1165,15 @@ communities, and will also serve as a pathfinder for follow-up ALMA surveys.
 
 \subsection{Publication Management} 
 
-As soon as the proposal is accepted, we will prepare the first paper describing
-the samples. In the first year (semester 16A \& 16B) of the project, we will
+In the first year of the project, we will
 concentrate on developing the methodology to cover the main science goals
 observed during the preceding semester. The initial papers should describe the
 analysis methods of the main science goals to the first set of observed
-targets.   
+targets, making use of the legacy values from both EMPIRE and MALATANG.   
+Additionally, many SCUBA maps of cold dust will be available (as many as half
+sample will be covered by DOWSING large survey proposal).
 
-
-
-During the second (17A \& 17B) and third (18A \& 18B) years, we will extend our
+During the second half of years, we will extend our
 analysis to other targets and perform follow-up observations. There are several
 Ph.D. dissertation work in the team are tightly related to this survey too. We
 will produce publications in several aspects utilizing also previous JCMT
@@ -1208,7 +1215,7 @@ presented on the project website.
 \addtolength{\tabcolsep}{-4.5pt}
 
 \begin{threeparttable}[b]
-\begin{tabular}{llrrccccccccccl}
+\begin{tabular}{clccccccccccccr}
 \hline
 \hline
 
@@ -1216,7 +1223,7 @@ N & Source Name & R.A. & Decl. & Distance & Diameter & $f_{\rm 60\mu m}$ & $f_{\
 
   &  & (J2000) & (J2000) & (Mpc) & (arcmin) & (Jy) & (Jy) & ($L_\odot$) & ($M_{\odot} \rm yr^{-1} kpc^{-2}$) & (mK) & (mk) & (mk) & (hrs) & band-2(4)(hrs) \\
 
-(1) & (2)  & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14)  \\
+(1) & (2)  & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) \\
 
 \hline
 %\startdata
@@ -1270,7 +1277,42 @@ by assuming weather condition of band 2 and band 4 (in parenthesis), respectivel
 
 \end{table*}
 %-----------------------------------------
-
+\begin{table}
+\caption{Observational data and sample properties}
+\label{tbl:obs}
+\centering
+\begin{tabular}{l l l l l }
+\hline
+Source Name        & type                   &    mapping mode  & integration time (HCN)  &  integration time (HCO+)  \\
+                   &                        &                  &(hours)                  & (hours) \\
+ (1)               &       (2)              &       (3)        &       (4)               &       (5)\\
+\hline
+     NGC 253       &      SAB(s)c           &  jiggle          &     6.2                 & 6.0   \\
+     NGC 1068      &      (R)SA(rs)b        &  jiggle          &     5.7                 & 6.7   \\
+     IC 342        &      SAB(rs)cd         &  jiggle          &     5.6                 & 6.5   \\
+      M82          &      I0 edge-on        &  jiggle          &     2.5                 & 1.7   \\
+      M83          &      SAB(s)c           &  jiggle          &     7.4                 & 8.3   \\
+     NGC 6946      &      SAB(rs)cd         &  jiggle          &     7.5                 & 9.2   \\
+     NGC 660       &      (R')SB(rs)d       &  stare           &     8.9                 & 7.7   \\
+     NGC 891       &      SA(s)b? edge-on   &  stare           &     8.0                 & 7.1   \\
+    Maffei 2       &      SAB(rs)bc?        &  stare           &     8.8                 & 7.5   \\
+    NGC 1097       &      SB(s)b            &  stare           &     6.3                 & 0.8   \\
+   NGC 1365        &      SB(s)b            &  stare           &     1.2                 & 0     \\
+    NGC 1808       &      (R)SAB(s)a        &  stare           &     5.7                 & 6.7   \\
+     NGC 2146      &      SB(s)ab pec       &  stare           &     4.9                 & 6.4   \\
+     NGC 2903      &      SAB(rs)bc         &  stare           &     9.4                 & 6.6   \\
+     NGC 3079      &      SB(s)c edge-on    &  stare           &     5.1                 & 6.2   \\
+    NGC 3521       &      SAB(rs)bc         &  stare           &     6.0                 & 5.3   \\
+     NGC 3627      &      SAB(s)b           &  stare           &     4.1                 & 4.0   \\
+     NGC 3628      &      Sb pec edge-on    &  stare           &     4.9                 & 5.0   \\
+    Arp 299        &      merger            &  stare           &     4.2                 & 3.3   \\
+     NGC 4631      &      SB(s)d edge-on    &  stare           &     3.2                 & 4.1   \\
+    NGC 4736       &      (R)SA(r)ab        &  stare           &     5.9                 & 5.6   \\
+     M51           &      merger            &  stare           &     10                  & 10    \\
+    NGC 5457       &      SAB(rs)cd         &  stare           &     5.0                 & 5.2   \\
+\hline
+\end{tabular}
+\end{table}
 
 
 %%%Figure
@@ -1288,6 +1330,51 @@ by assuming weather condition of band 2 and band 4 (in parenthesis), respectivel
 
 
 
+\begin{landscape}
+\begin{table}
+\caption{ Observed quantities in the central positions} 
+\label{tab:stack}
+\centering
+\scriptsize
+\begin{tabular}{l l l l l l l l l l l l l l l l l l }
+\hline
+\toprule
+Molecule &  \multicolumn{8}{c}{HCN} & \multicolumn{8}{c}{HCO+}\\
+\midrule
+Source     & W       & Err     & Wfree   & Err     & linewidth & GaussW  & Err     & linewidth$_g$ & W       & Err     & Wfree   & Err     & linewidth & GaussW  & Err     & linewidth$_g$ \\
+           & (Kkm/s) & (Kkm/s) & (Kkm/s) & (Kkm/s) & (km/s)    & (Kkm/s) & (Kkm/s) & km/s          & (Kkm/s) & (Kkm/s) & (Kkm/s) & (Kkm/s) & (km/s)    & (Kkm/s) & (Kkm/s) & km/s          \\
+           &(1)      & (2)     & (3)     & (4)     & (5)       & (6)     & (7)     & (8)           & (9)     & (10)    & (11)    & (12)    & (13)      & (14)    & (15)    & (16)          \\ 
+\hline
+ARP299     & 1.94    & 0.11    & 1.95    & 0.10    & 196       & 2.05    & 0.09    & 295$\pm$14    & 2.15    & 0.08    & 2.13    & 0.12    & 172       & 2.25    & 0.13    & 324 $\pm$21   \\
+NGC253     & 36.9    & 0.6     & 36.8    & 0.5     & 132       & 37.8    & 0.5     & 155$\pm$2     & 48.8    & 0.5     & 48.7    & 0.4     & 137       & 50.3    & 0.3     & 157 $\pm$ 1   \\
+NGC600     & 1.35    & 0.26    & 1.32    & 0.1     & 233       & 1.41    & 0.14    & 333$\pm$34    & 2.39    & 0.15    & 2.40    & 0.12    & 302       & 2.60    & 0.17    & 365 $\pm$ 23  \\
+NGC891     & 0.89    & 0.19    & 0.92    & 0.13    & -         & 0.78    & 0.15    & 145$\pm$35    & $<$1.16 & 0.39    & $<$0.56 & 0.19    & -         & -       & -       & -             \\
+maffei2    & 2.00    & 0.24    & 1.97    & 0.14    & 95        & 2.10    & 0.13    & 122$\pm$8     & 2.78    & 0.22    & 2.81    & 0.20    & 95        & 2.91    & 0.20    & 140$\pm$10    \\
+NGC1068    & 5.90    & 0.28    & 5.89    & 0.23    & 145       & 6.02    & 0.25    & 200$\pm$9     & 1.27    & 0.34    & 1.26    & 0.21    & 113       & 1.46    & 0.20    & 140$\pm$20    \\
+NGC1097    & 0.53    & 0.26    & 0.55    & 0.09    & 60        & 0.54    & 0.1     & 170$\pm$30    & $<$0.45 & 0.14    & $<$0.43 & 0.14    & -         & -       & -       & -             \\
+NGC1365    & 4.5     & 0.31    & 4.44    & 0.49    & -         & 4.3     & 0.5     & 195$\pm$22    & -       & -       & -       & -       & -         & -       & -       & -             \\
+IC342      & 1.95    & 0.20    & 1.90    & 0.16    & 35        & 1.89    & 0.17    & 47$\pm$5      & 2.13    & 0.29    & 2.19    & 0.16    & 43        & 2.12    & 0.17    & 44$\pm$4.0    \\
+NGC1808    & 1.99    & 0.19    & 2.02    & 0.16    & 96        & 2.04    & 0.16    & 190$\pm$17    & 2.09    & 0.18    & 2.11    & 0.17    & 111       & 2.16    & 0.18    & 194$\pm$17    \\
+NGC2146    & 1.07    & 1.06    & 1.05    & 0.17    & -         & 1.08    & 0.18    & 205$\pm$ 35   & 1.58    & 0.23    & 1.51    & 0.15    & 131       & 1.61    & 0.16    & 192$\pm$20    \\
+NGC2903    & $<$0.60 & 0.20    & $<$0.3  & 0.10    & -         & -       & -       & -             & 0.52    & 0.10    & 0.53    & 0.08    & 166       & 0.55    & 0.09    & 126$\pm$24    \\
+M82        & 5.89    & 0.33    & 5.83    & 0.36    & 109       & 6.02    & 0.41    & 181$\pm$13    & 17.50   & 0.51    & 17.5    & 0.50    & 143       & 17.97   & 0.57    & 184$\pm$9     \\
+NGC3079    & 4.95    & 0.23    & 4.92    & 0.32    & 117       & 5.28    & 0.31    & 204$\pm$12    & $<$1.9  & 0.64    & $<$1.8  & 0.61    & -         & -       & -       & -             \\
+NGC3521    & $<$0.60 & 0.20    & $<$0.32 & 0.10    & -         & -       & -       & -             & $<$2.4  & 0.8     & 0.64    & 0.15    & -         & 0.66    & 0.14    & 180$\pm$47    \\
+NGC3627    & 1.37    & 0.33    & 1.30    & 0.20    & 77.6      & 1.31    & 0.20    & 140$\pm$23    & 0.60    & 0.21    & 0.64    & 0.16    & -         & 0.67    & 0.17    & 156$\pm$39    \\
+NGC3628    & 3.02    & 0.16    & 3.02    & 0.16    & 135       & 3.27    & 0.16    & 185$\pm$9     & 2.83    & 0.22    & 2.84    & 0.22    & 133.6     & 2.87    & 0.25    & 182$\pm$17    \\
+NGC4631    & $<$0.80 & 0.26    & $<$0.48 & 0.16    & -         & -       & -       & -             & $<$0.93 & 0.31    & $<$0.37 & 0.13    & -         & -       & -       & -             \\
+NGC4736    & 0.40    & 0.09    & 0.40    & 0.08    & -         & 0.39    & 0.09    & 151$\pm$40    & $<$0.33 & 0.11    & $<$0.33 & 0.11    & -         & -       & -       & -             \\
+M83        & 1.54    & 0.39    & 1.50    & 0.27    & -         & 1.72    & 0.34    & 167$\pm$35    & 1.09    & 0.32    & 1.02    & 0.24    & -         & 1.02    & 0.24    & 49$\pm$11     \\
+NGC5457    & 0.84    & 0.11    & 0.83    & 0.07    & 180       & 0.85    & 0.08    & 195$\pm$21    & $<$0.36 & 0.12    & $<$0.32 & 0.11    & -         & -       & -       & -             \\
+NGC6946    & 1.34    & 0.29    & 1.47    & 0.26    & -         & 1.39    & 0.27    & 98$\pm$19     & 1.89    & 0.28    & 1.73    & 0.25    & 59        & 2.05    & 0.30    & 143$\pm$10    \\
+\hline
+\end{tabular}
+\end{table}
+\end{landscape}
+
+
+
+
 
 
 
@@ -1301,9 +1388,9 @@ by assuming weather condition of band 2 and band 4 (in parenthesis), respectivel
 \caption{Left: The HCN-FIR correlation (the fit is for local normal galaxies
         with a slope of 1 (open circles)).  Filled circles are high-$z$
         AGN/galaxies \citep{Gao2007} and circles with plus signs are local
-        (U)LIRGs.  Middle: The correlation between $\rm L_{HCN}/L_{CO}$ and
-        $\rm L_{IR}/L_{CO}$ for a local sample \citep{gs04a}. Right: The
-        correlation between L$_{\rm IR}$ and L$_{\rm HCN}$ for Galactic and
+        (U)LIRGs.  Middle: The correlation between $L_{\rm HCN}/L_{CO}$ and
+        $L_{\rm IR}/L_{\rm CO}$ for a local sample \citep{gs04a}. Right: The
+        correlation between $L_{\rm IR}$ and $L_{\rm HCN}$ for Galactic and
         extragalactic sources \citep{weg05}.}
 \label{fig:hcn10}
 \end{figure}
@@ -1328,9 +1415,11 @@ yields identical linear correlation within the uncertainties.}
 \centering
 
 %\includegraphics[width=0.8\textwidth]{maffei2-1.eps}
-\includegraphics[width=0.6\textwidth]{Tan_M82.pdf}
+\includegraphics[width=0.49\textwidth]{Tan_M82.pdf}
+\includegraphics[width=0.49\textwidth]{maffei2-hco+.pdf}
 \caption{
-JCMT \HCOP 4-3 spectra map in the central 90\arcsec $\times$ 90\arcsec region (grid spacing of 10\arcsec) of M82 processed with the ORAC-DR pipeline. All spectra are on the $T_A^*$ scale for the same range from −0.025 to 0.18 K and smoothed to 26 km\,s$^{−1}$ \citep{Tan:2018}.
+{\it left:} MALATANG \HCOP\ 4-3 spectra map in the central 90\arcsec $\times$ 90\arcsec region (grid spacing of 10\arcsec) of M82. All spectra are on the $T_A^*$ scale for the same range from −0.025 to 0.18 K and smoothed to 26 km\,s$^{−1}$ \citep{Tan:2018}. 
+{\it right:} MALATANG \HCOP\ 4-3 spectra map of Maffei2, with a grid spacing of 15\arcsec.
 }
 \label{fig:maffei2}
 \end{figure}
@@ -1348,11 +1437,10 @@ JCMT \HCOP 4-3 spectra map in the central 90\arcsec $\times$ 90\arcsec region (g
 (a) Integrated intensity map of \HCNoz\ of M~51. Contour levels are :        0.1, 0.6, 1.9, 3.4, 4.9, 5.4  \Kkms\ (on \Tmb\ scale) . (b) {\it Herschel} 70        \mum\ image with contour levels of 3, 9, 27,81 mJy/pixel.  The crosses        mark the central position of M~51 with $\alpha= 13:29:52.7$, $\delta=        47:11:43.0$ (J2000).} \label{fig:M51_IR_HCN}
 \end{figure}
 
-
 \begin{figure}
 \centering
-%\includegraphics[width=0.8\textwidth]{M51.pdf}
 \includegraphics[width=0.6\textwidth]{Tan_relation.pdf}
+%\includegraphics[width=0.8\textwidth]{M51.pdf}
 \caption{
 Correlation between HCN 4-3 and IR luminosities for Galactic
 clumps (circles), MALATANG galaxies resolved at sub-kiloparsec scales (colored
@@ -1362,13 +1450,9 @@ are not shown in this plot. The solid line represents the best-fit relation of
 log \LIR=1.03($\pm$0.01)log $L'_{HCN 4–3}$+3.58. The probability density distribution
 of the slope derived from the Bayesian fitting is shown in the inset panel. A
 Spearman rank correlation analysis yields a correlation coefficient of 0.94  \citep{Tan:2018}.
-
 %\LIR\ as a function of \LHCNoz in M~51.  Each symbol corresponds to an        individual pointing in the observations.  The pointings in the central        region are marked with filled triangles, and the open triangles show the        pointings on the disk.  The solid line shows the best fit for all data.        The dotted line indicates the fit with the data only on the disk.
-} \label{fig:M51}
+} \label{fig:tan_relation}
 \end{figure}
-
-
-
 
 
 
@@ -1376,7 +1460,6 @@ Spearman rank correlation analysis yields a correlation coefficient of 0.94  \ci
 %%%
 \begin{figure}
 \centering
-
 \includegraphics[width=0.48\textwidth]{Jiang_hcn_to_co10.pdf}
 \includegraphics[width=0.48\textwidth]{Jiang_Lir_Lhcn.pdf}
 %\includegraphics[width=0.43\textwidth]{m82_00.eps}
@@ -1387,7 +1470,7 @@ Spearman rank correlation analysis yields a correlation coefficient of 0.94  \ci
 %\hskip10pt
 %\includegraphics[width=0.43\textwidth]{m51_00.eps}
 \caption{
-{\it Left:} ratio map of HCN 4-3/CO 1-0, which is a proxy of the dense gas fraction $f_{\rm dense}$. It indicates that in the galaxy center there are more high-density gas than in the disc.
+{\it Left:} ratio map of HCN 4-3/CO 1-0 with MALATANG data for NGC\,253, which is a proxy of the dense gas fraction $f_{\rm dense}$. It indicates that in the galaxy center there are more high-density gas than in the disc.
 {\it right:} ratio map of \LIR/$L'_{\rm HCN 4-3}$, which is a proxy of ${\rm SFE_{HCN}}$. It shows that the SFE is higher in the upper pixels of the circumnuclear region of NGC\,253.
 Note that these images are tilted (see Figure 1) to align with the major axis of NGC253 (Jiang et al. submitted).
 }
@@ -1397,7 +1480,7 @@ Note that these images are tilted (see Figure 1) to align with the major axis of
 %are smoothed to 17 \kms\ for display (8.8\kms\ for M51). The M~82 spectra are
 %from our 45 hr  JCMT Project (M15AI50) aiming to map \HCNtt. The spectra of
 %M~51 were taken with CSO which aims to map \HCNtt\ in the disk region.  }
-\label{fig:spe-hcn32}
+\label{fig:jiang_maps}
 \end{figure}
 
 %%%
@@ -1426,7 +1509,7 @@ higher \sfedense.
 %observing mode with 3$\times$3 jiggle pattern that fully sample the nuclear
 %region of extended galaxies (e.g.,NGC253/NGC1068/IC342/M82/M83/NGC6946), the
 %beam spacing is 10$''$.
-} \label{fig:obs}
+} \label{fig:jiang_relation}
 
 \end{figure}
 
